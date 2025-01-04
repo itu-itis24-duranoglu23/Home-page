@@ -1,0 +1,18 @@
+p.centered {
+    font-style: normal;
+    color:black;
+    font-weight: bold;
+    text-indent: 3mm;
+    text-align: center;
+  }
+
+  .center-img img {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  
+  .center-img {
+    text-align: center;
+  }
+  
