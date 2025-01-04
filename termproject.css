@@ -16,3 +16,11 @@ p.centered {
     text-align: center;
   }
   
+  ol {
+    border: thick solid purple;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 4ex;
+    width: 50%;
+    background-color: aquamarine;
+  }
