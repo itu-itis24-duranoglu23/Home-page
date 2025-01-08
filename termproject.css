@@ -24,3 +24,9 @@ p.centered {
     width: 50%;
     background-color: aquamarine;
   }
+
+  h4      {
+    font-size: 24 pt;
+    color: blue;
+    font-family: tahoma, helvetica, sans-serif;
+   }
