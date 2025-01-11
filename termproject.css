@@ -2,7 +2,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #a5409b;
+  background-color: #95375b;
   color: #070000;
   line-height: 1.6;
 }
@@ -13,7 +13,7 @@ p.centered {
     color:rgb(255, 251, 251);
     font-size: 22pt;
     font-weight: bold;
-    text-indent: 3mm;
+    text-indent: 2mm;
     text-align: center;
   }
 
@@ -21,6 +21,10 @@ p.centered {
   display: inline-block;
   margin-left: auto;
   margin-right: auto;
+  border: 5px solid #f3f0f2;
+  padding: 5px;
+  background-color: #a5409b;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5); /* Gölge efekti */      
   }
   
   .center-img {
@@ -92,5 +96,8 @@ p.centered {
       background-color: rgb(134, 130, 195);
       font-size: 14px;
       font-weight: bold;
+      width:90%;
+      margin-left: auto;
+      margin-right: auto;
     }
     
