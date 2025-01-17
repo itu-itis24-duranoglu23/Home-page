@@ -72,19 +72,20 @@ p.centered {
   }
 
     /* Buton */
-    button {
-      display: block;
-      width: 200px;
+   .button {
+      text-decoration: none;
+      display:block;
+      width: 150px;
       margin: 20px auto;
       padding: 20px;
-      background-color: #f5c518;
-      color: #0c0c0c;
+      background-color: #ffff00;
+      color: black;
       font-size: 18px;
       border: none;
       cursor: pointer;
     }
     
-    button:hover {
+    .button:hover {
       border: thick solid rgb(188, 14, 124);
       background-color: #ffe75e;
     }
