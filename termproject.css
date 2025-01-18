@@ -46,7 +46,7 @@ p.centered {
    }
 
    ol {
-    
+    list-style-type: style left;
     border: thick solid rgb(188, 14, 124);
     margin-top: 1em;
     margin-bottom: 1em;

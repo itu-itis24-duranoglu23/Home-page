@@ -77,6 +77,11 @@ function checkGuess() {
         alert(`You already guessed "${guess}". Try a different letter or word.`);
         return;
     }
+    if (guess.length !== 1 && guess.length !== 5) {
+        alert("Invalid input! Please enter either a single letter or a 5-letter word.");
+        return;
+    }
+    
 
     guessedLetters.add(guess); 
 
@@ -99,8 +104,11 @@ function checkGuess() {
         }
     } else if (guess === word) {
         maskedWord = word.split("").join(" ");
-        score = 100; 
-        alert("Congratulations! You guessed the correct word.");
+        updateDisplay();
+        setTimeout(function() { 
+            alert("Congratulations! You guessed the correct word.");
+        },100);
+        score = 100;
         gameOver = true;
     } else {
         lives = 0; 
@@ -116,7 +124,10 @@ function checkGuess() {
 
    
     if (!maskedWord.includes("_") && !gameOver) {
+        updateDisplay();
+        setTimeout(function() { 
         alert("Congratulations! You won the game.");
+        },100);
         gameOver = true;
     }
 }
